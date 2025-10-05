@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #111;
+}
+canvas{
+
+    border: 3px solid white;
+    border-radius: 12px;
+    background: #21d8d8 ;
+}
+  #start-game {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #156b18;
+      color: #fff;
+      padding: 20px 40px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 24px;
+    }
+    #start-game:hover {
+      background-color: #3e8e41;
+    }
+    
+  #reiniciar-juego {
+  display: none;
+  position: absolute;
+  top: 70%; /* Ajustado para mostrar el botón más abajo */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0, 102, 255); /* Color de fondo rojo */
+  color: white; /* Color de texto blanco */
+  padding: 20px 40px; /* Ajustado para hacer el botón más grande */
+  font-size: 24px; /* Ajustado para hacer el texto más grande */
+  border: none; /* Eliminar borde */
+  cursor: pointer; /* Agregar cursor de puntero */
+  border-radius: 10px;
+}
