@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juego de La Rana</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de La Rana</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <canvas id="game" width="800" height="480"></canvas>
-    <button id="start-game">Iniciar Juego</button>
-    <button id="reiniciar-juego">Regresar </button>
-    <script src="js/app.js"></script>
+  <canvas id="game" width="800" height="480"></canvas>
+  <div id="reglas">
+    <h2>Reglas del Juego:</h2>
+    <ul>
+      <li>Presiona la flecha hacia arriba para saltar. 🔼</li>
+      <li>Presiona la flecha hacia la derecha ▶ o ◀ izquierda para moverte.</li>
+      <li>Evita los Cocodrillos y come Moscas para obtener Mas vidas adicionales.</li>
+      <li>El juego termina cuando pierdas las 3 vidas.</li>
+    </ul>
+  </div>
+  <button id="start-game">Iniciar Juego</button>
+  <button id="reiniciar-juego">Regresar</button>
+  <script src="js/app.js"></script>
 </body>
 </html>

@@ -56,6 +56,10 @@ function crearAmigos() {
 
 document.addEventListener("keydown", (e) => keys[e.key] = true);
 document.addEventListener("keyup", (e) => keys[e.key] = false);
+document.getElementById('start-game').addEventListener('click', () => {
+  document.getElementById('reglas').style.display = 'none';
+  // Código para iniciar el juego
+});
 
 function update() {
   // Función para mover el personaje
